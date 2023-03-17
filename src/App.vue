@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <MainApp :UI_Width="50"/>
+    <div class="testOut">
+    <TransferApp/>
+    </div>
   </div>
 </template>
 
 <script>
-import MainApp from './components/MainApp.vue'
+import TransferApp from './components/TransferApp.vue'
 
 export default {
   name: 'App',
   components: {
-    MainApp
+    TransferApp
   }
 }
 </script>
@@ -27,5 +29,9 @@ body{
   display: flex;
   justify-content: center;    
   align-items: center; 
+}
+.testOut{
+  width: 700px;
+  height: 400px;
 }
 </style>

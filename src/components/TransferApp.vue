@@ -146,12 +146,13 @@ export default {
 
 <style lang="scss" scoped>
 .bg{
+    padding: 2% 0;
+    height: 100%;
     display: flex;
     flex-direction:row;
     justify-content:center;
     align-items: center;
     text-align: center;
-    width: 80%;
 
 }
 .card_custom{
@@ -170,7 +171,6 @@ export default {
 
             height: 100%;
             font-weight: 300;
-            font-size: 1.5rem;
             color: #333;
             display: flex;
             align-items: center; 
@@ -188,17 +188,16 @@ export default {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        align-content: center;
+        align-content: space-around;
 
         .checkBox_Box{
             overflow:scroll;
-            height: 85%;
+            height: 75%;
             width: 100%;
         }
 
         .add_box{
             width: 100%;
-            height: 10%;
             
             // border: 1px solid #E8E8E8;
 
@@ -237,7 +236,7 @@ export default {
 
 .swap_btn{
     cursor: pointer;
-    width:50px;
+    width: 50px;
     height: 50px;
     margin: 0 10px;    
     .icon{
@@ -251,8 +250,7 @@ export default {
 @media(max-width: 768px){
     .bg{
         flex-direction:column;
-        width: 80% !important;
-        height:80% !important;
+        padding: 5%;
     }
     .card_custom{
         width: 100%;
@@ -263,6 +261,9 @@ export default {
             height: 80%;
             padding-bottom: 10%;
         }
+    }
+    .swap_btn{
+        transform: rotate(90deg);
     }
     
 }

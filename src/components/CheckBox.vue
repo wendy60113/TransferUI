@@ -31,6 +31,7 @@ export default {
     border-radius: 30px;
     cursor: pointer;
     display: flex;
+    width: fit-content;
 
     &.active {
       background-color: #6590FF;
@@ -44,6 +45,7 @@ export default {
         width:20px;
         border-radius: 3px;
         font-size: 0;
+        margin-right: 5px;
 
         &.active{
             border: 1px solid #fff;
@@ -65,7 +67,6 @@ export default {
         color: #333;
         height: 20px;
         width:auto;
-        margin-left: 4%;
         font-size: 0;
 
         &.active{
