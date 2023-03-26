@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="testOut">
+    <div class="container">
     <TransferApp/>
     </div>
   </div>
@@ -30,7 +30,7 @@ body{
   justify-content: center;    
   align-items: center; 
 }
-.testOut{
+.container{
   width: 700px;
   height: 400px;
 }
