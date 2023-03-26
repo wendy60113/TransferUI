@@ -6,7 +6,7 @@ Hope everyone enjoys it!
 
 ## Demo
 
-[Demo Website](https://wendy60113.github.io/Transfer_UI/)
+[Demo Website](https://wendy60113.github.io/TransferUI/)
 
 ## Installation
 
