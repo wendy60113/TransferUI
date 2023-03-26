@@ -4,7 +4,7 @@
         <img src="./assets/logo/vue.png"/>
         <h2 style="color:#333" class="mb-3">tag_transfer</h2>
         <b-button size="sm" class="m-2" style="background-color:#ce2f2f; border:0" href="https://www.npmjs.com/package/tag_transfer">Npm</b-button>
-        <b-button size="sm" class="m-2" style="background-color:#333; border:0" href="https://github.com/wendy60113/Transfer_UI">Github</b-button>
+        <b-button size="sm" class="m-2" style="background-color:#333; border:0" href="https://github.com/wendy60113/TransferUI">Github</b-button>
     </div>
     <div class="containerBox">
       <div class="uiBox">
