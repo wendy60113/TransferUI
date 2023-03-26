@@ -1,12 +1,13 @@
 {
   "name": "tag_transfer",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "main": "dist/vue-TransferApp.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-TransferApp ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
+  "keywords": ["vue","javascript","vue-compnent","ui","tag","transfer"],
   "dependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
     "@mdi/js": "^7.1.96",
