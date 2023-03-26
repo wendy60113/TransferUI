@@ -195,6 +195,9 @@ export default {
             height: 75%;
             width: 100%;
         }
+        .checkBox_Box::-webkit-scrollbar {
+            opacity: 0;
+        }
 
         .add_box{
             width: 100%;
